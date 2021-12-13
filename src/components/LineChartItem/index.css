@@ -1,0 +1,42 @@
+.graph-page-confirmed {
+  background-color: #331427;
+}
+.graph-page-active {
+  background-color: #132240;
+}
+.graph-page-recovered {
+  background-color: #182829;
+}
+.graph-page-deceased {
+  background-color: #1c1c2b;
+}
+.graph-page-tested {
+  background-color: #230f41;
+}
+.line-chart-ul-desktop {
+  list-style-type: none;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .line-chart-ul-desktop {
+    display: none;
+  }
+}
+.line-chart-ul-mobile {
+  list-style-type: none;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .line-chart-ul-mobile {
+    display: none;
+  }
+}
+.li-line-chart {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.bar {
+  color: white !important;
+  margin: 50px;
+}
